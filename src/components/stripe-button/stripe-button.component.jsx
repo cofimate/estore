@@ -10,7 +10,7 @@ const StripeCheckoutButton = ({ price }) => {
         console.log(token);
         alert('Payment Succesfull');
     }
-
+    //Payment fake info 4242 4242 4242    --- 01/20   -- CVV 123
     return(
         <StripeCheckout 
             label='Pay Now'
