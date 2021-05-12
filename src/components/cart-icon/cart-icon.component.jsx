@@ -13,7 +13,7 @@ import './cart-icon.styles.scss';
 const CartIcon = ({ toggleCartHidden , itemCount }) => (
     <div className='cart-icon' onClick={toggleCartHidden}>
         <ShoppingIcon className='shopping-icon' />
-        <span class='item-count'>{itemCount}</span>
+        <span className='item-count'>{itemCount}</span>
     </div>
 )
 const mapStateToProps = createStructuredSelector({
